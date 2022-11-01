@@ -3,6 +3,6 @@ Repo made for studying web development (full stack) via odin project.
 
 ## HTML
 Includes basic html files to learn
-    -Boiler plate/ !html
-    -Lists
+   <br> -Boiler plate/ !html
+   <br> -Lists
 
