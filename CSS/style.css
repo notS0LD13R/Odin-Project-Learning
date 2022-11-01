@@ -1,8 +1,12 @@
 *{
-    font-family: monospace, sans-serif
+    font-family: monospace, sans-serif;
+    padding:0px;
+    margin:0px;
+    border: 0px;
+
 }
 
-div{
+div:nth-of-type(1){
     background-color: red;
     color: white;
     font-size: 50px;
@@ -17,4 +21,30 @@ font-size: 25px;
 button{
     background-color:orange;
     font-size: 18px;
+    border: 3px solid black;
+    margin-bottom: 50px;
+}
+
+.divone{
+    background-color: #FBC1CB;
+    padding: 32px;
+    margin: 12px;
+}
+.divtwo{
+    background-color: #ADD9E7;
+    margin-bottom: 48px;
+}
+.divthree{
+    background-color: #FCDBB8;
+    padding: 32px;
+    width: 200px;
+    margin-left: auto;
+}
+
+.divone,
+.divtwo,
+.divthree{
+    font-size: 30px;
+    border: 3px solid black;
+    box-sizing: border-box;
 }
