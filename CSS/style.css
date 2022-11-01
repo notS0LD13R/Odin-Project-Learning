@@ -1,3 +1,20 @@
-body{
-    background-color: aqua;
+*{
+    font-family: monospace, sans-serif
+}
+
+div{
+    background-color: red;
+    color: white;
+    font-size: 50px;
+}
+
+p{
+background-color: green;
+color: white;
+font-size: 25px;
+}
+
+button{
+    background-color:orange;
+    font-size: 18px;
 }
