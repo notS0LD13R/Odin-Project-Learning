@@ -6,6 +6,10 @@
 
 }
 
+body{
+    background-color:lightgray;
+}
+
 div:nth-of-type(1){
     background-color: red;
     color: white;
@@ -47,4 +51,29 @@ button{
     font-size: 30px;
     border: 3px solid black;
     box-sizing: border-box;
+}
+
+.mp2{
+    width: 400px;
+    margin: auto;
+}
+
+.mp2 div{
+    color:black;
+    background-color: #E2F3FE;
+    border: 8px solid white;
+    padding: 8px 1px 8px 16px;
+    box-sizing: border-box;
+}
+
+.mp2 div:nth-child(1){
+    font-size: 16px;
+}
+
+.mp2 div:nth-child(3){
+    text-align: center;
+}
+.mp2 div:nth-child(3) button{
+    display: block;
+    margin: auto;
 }
