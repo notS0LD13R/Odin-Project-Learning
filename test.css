@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+section{
+    width: 200vw;
+    height: 100vh;
+    background-color: aqua;
+    overflow-x: hidden;
+}
+
+main{
+    height: 500px;
+    background-color: blue;
+}
+
