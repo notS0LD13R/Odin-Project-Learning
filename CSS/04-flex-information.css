@@ -1,0 +1,38 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main{
+    
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+  font-weight: 900;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    gap:52px;
+    
+}
+
+.itembox{
+    align-items: center;
+    display: flex;
+    flex-basis: 170px;
+    flex-direction: column;
+}
+
+img{
+    width: 100px;
+}
+
+.footer{
+
+    display: flex;
+    justify-content: center;
+}
