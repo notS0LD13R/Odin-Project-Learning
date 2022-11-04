@@ -4,15 +4,20 @@
     border: 0px;
 }
 
+
+*::-webkit-scrollbar {
+    display: none;
+  }
+
+
 section{
     width: 200vw;
     height: 100vh;
-    background-color: aqua;
-    overflow-x: hidden;
+    background-image: linear-gradient(to right, aqua, red);
 }
 
 main{
-    height: 500px;
+    height: 100vh;
     background-color: blue;
 }
 
