@@ -1,0 +1,153 @@
+@font-face {
+    font-family: Mantinia;
+    src: url("Font/Mantinia\ Regular.otf");
+}
+
+@font-face {
+    font-family: Garamond;
+    src: url("Font/Garamond\ Premier\ Pro\ Regular.ttf");
+}
+
+:root{
+--light-gray: #d6d6d6ff;
+--light-yellow: #ffee32ff;
+--dark-yellow: #ffd100ff;
+--light-black: #202020ff;
+--dark-black: #000000;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+h1,h2{
+    font-family: Mantinia;
+}
+
+p,button{
+    font-family: Garamond;
+    font-size: larger;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
+nav{
+    background-color: var(--dark-black);
+    color: var(--light-yellow);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+ul{
+    display: flex;
+    font-family: Garamond;
+    gap: 40px;
+    list-style-type: none;
+}
+
+li{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.Hero{
+    background-color: var(--light-black);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    padding: 100px 0px;
+    flex-wrap: wrap;
+}
+
+.heroimg img{
+    display: block;
+    margin-top: 45px;
+    width: min(90vw, 500px);
+    border: 5px var(--dark-yellow) solid;
+    border-radius: 10px;
+}
+
+.herodesc{
+    width: 500px;
+}
+
+.herodesc h1{
+    font-size: 40px;
+}
+
+.herodesc button{
+    font-weight: bolder;
+    background-color: var(--light-yellow);
+    margin-top: 25px;
+    padding:10px 40px;
+    border-radius: 20px;
+
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+}
+
+.info h1{
+    font-size: 50px;
+}
+
+.container{
+    justify-content: center;
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+}
+
+.card img{
+    width: 250px;
+    border: 5px var(--dark-yellow) solid;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.quote{
+    background-color: var(--light-gray);
+    padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote p{
+    max-width: 1200px;
+    font-size: 27px;
+}
+
+.quote h1{
+    font-size: 40px;
+}
+
+.footer{
+
+}
