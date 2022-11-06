@@ -50,10 +50,11 @@ nav{
     font-weight: bolder;
 }
 
-ul{
+.navlinks{
     display: flex;
     font-family: Garamond;
-    gap: 40px;
+    gap:min(30px,5vw);
+    justify-content: space-evenly;
     list-style-type: none;
 }
 
@@ -76,7 +77,7 @@ li{
     display: block;
     margin-top: 45px;
     width: min(90vw, 500px);
-    border: 5px var(--dark-yellow) solid;
+    border: 5px var(--light-yellow) solid;
     border-radius: 10px;
 }
 
@@ -102,6 +103,7 @@ li{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    gap:50px;
     padding: 100px 0px;
 }
 
@@ -125,7 +127,7 @@ li{
 
 .card img{
     width: 250px;
-    border: 5px var(--dark-yellow) solid;
+    border: 5px var(--light-yellow) solid;
     border-radius: 10px;
     margin-bottom: 25px;
 }
@@ -146,8 +148,46 @@ li{
 
 .quote h1{
     font-size: 40px;
+    align-self: flex-end;
+    margin-right: min(100px,10vw);
 }
 
-.footer{
+.Buy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0px;
+}
 
+.bluebox{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--light-black);
+    color: white;
+    padding: 50px;
+    gap: 10px;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    outline: var(--dark-black) solid 5px;
+    outline-offset: 5px;
+}
+ 
+
+.bluebox button{
+    font-weight: bolder;
+    background-color: var(--light-yellow);
+    margin-top: 25px;
+    padding:10px 40px;
+    border-radius: 20px;
+}
+
+
+footer{
+    background-color: var(--dark-black);
+    height: 50px;
+    color: var(--light-yellow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
