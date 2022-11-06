@@ -1,0 +1,85 @@
+body{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.circle{
+     background: conic-gradient(from 0deg at 50% 50%,
+     red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+     green 120deg 200deg, blue 200deg 280deg, purple 280deg);
+     
+     -webkit-background-clip: text;
+     color: transparent;
+     background-position: 0px 0px;
+     background-size:500px auto ;
+
+
+    }  
+
+    .circle:hover{
+        animation:shaheen;
+        animation-fill-mode: forwards;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-direction:alternate ;
+    }
+
+@keyframes shaheen{
+    0%{
+        background-image: conic-gradient(from 0deg at 50% 50%,
+        red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+        green 120deg 250deg, blue 250deg 280deg, purple 280deg);
+    }
+    10%{
+        background-image: conic-gradient(from 30deg at 50% 50%,
+        red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+        green 120deg 250deg, blue 250deg 280deg, purple 280deg);
+    }
+    20%{
+        background-image: conic-gradient(from 60deg at 50% 50%,
+        red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+        green 120deg 250deg, blue 250deg 280deg, purple 280deg);
+    }
+    30%{
+        background-image: conic-gradient(from 90deg at 50% 50%,
+        red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+        green 120deg 250deg, blue 250deg 280deg, purple 280deg);
+    }
+    40%{
+        background-image: conic-gradient(from 120deg at 50% 50%,
+        red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+        green 120deg 250deg, blue 250deg 280deg, purple 280deg);
+    }
+    50%{
+        background-image: conic-gradient(from 150deg at 50% 50%,
+        red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+        green 120deg 250deg, blue 250deg 280deg, purple 280deg);
+    }
+    60%{
+        background-image: conic-gradient(from 180deg at 50% 50%,
+        red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+        green 120deg 250deg, blue 250deg 280deg, purple 280deg);
+    }
+    70%{
+        background-image: conic-gradient(from 210deg at 50% 50%,
+        red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+        green 120deg 250deg, blue 250deg 280deg, purple 280deg);
+    }
+    80%{
+        background-image: conic-gradient(from 250deg at 50% 50%,
+        red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+        green 120deg 250deg, blue 250deg 280deg, purple 280deg);
+    }
+    90%{
+        background-image: conic-gradient(from 300deg at 50% 50%,
+        red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+        green 120deg 250deg, blue 250deg 280deg, purple 280deg);
+    }
+    100%{
+        background-image: conic-gradient(from 359deg at 50% 50%,
+        red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
+        green 120deg 250deg, blue 250deg 280deg, purple 280deg);
+    }
+
+}
