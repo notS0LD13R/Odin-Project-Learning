@@ -6,3 +6,8 @@ Includes basic html files to learn
    <br> -Boiler plate/ !html
    <br> -Lists
 
+## CSS
+Learned basic css and flexbox
+   <br> -Flex Layout
+   <br> -attribute chaning
+   <br> -Landing Page Project
