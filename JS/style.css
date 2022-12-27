@@ -8,7 +8,7 @@ body{
      background: conic-gradient(from 0deg at 50% 50%,
      red  36deg, orange 36deg 78deg, yellow 78deg 120deg, 
      green 120deg 200deg, blue 200deg 280deg, purple 280deg);
-     
+     background-clip: text;
      -webkit-background-clip: text;
      color: transparent;
      background-position: 0px 0px;
